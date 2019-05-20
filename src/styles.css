@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Tabs,
+.TabPanel {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.TabPanel {
+  display: none;
+}
+
+.SelectedTabPanel {
+  display: flex;
+}
+
+.TabList {
+  flex: none;
+}
+
+.CasingLabel {
+  font-size: 12px;
+  white-space: pre;
+  text-align: right;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#root {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+}
